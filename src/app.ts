@@ -22,7 +22,7 @@ import { generateRandom } from "./utils";
     body: JSON.stringify({
       query: `
         {
-          get (limit: 3, offset: ${offset}) {
+          get (limit: 2, offset: ${offset}) {
             category
             question
           }
@@ -34,10 +34,9 @@ import { generateRandom } from "./utils";
   const responseJSON = await response.json();
 
   const { get } = responseJSON.data;
-
   
   const WEBHOOKS = process.env.WEBHOOKS_URL;
-  
+
   if(null == WEBHOOKS) throw new Error("⚠️ Github Secrets 에서 WEBHOOK 등록여부를 확인해주세요")
 
   const webhookList = WEBHOOKS.split(",")
