@@ -5,9 +5,9 @@ name: node.js CI
 
 on:
   # Only Test
-  push:
-   branches:
-    - main
+  # push:
+  #  branches:
+  #   - main
   schedule:
     # 매일 아침 9시에 데일리 퀴즈 발송
     - cron: "50 23 * * *"
