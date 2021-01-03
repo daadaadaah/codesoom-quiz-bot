@@ -1,0 +1,37 @@
+{
+  "name": "daily-quiz-bot",
+  "version": "1.0.0",
+  "description": "매일마다 문제를 슬랙 채널로 보내드려요",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daadaadaah/daily-quiz-bot.git"
+  },
+  "author": "Fernando",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daadaadaah/daily-quiz-bot.git"
+  },
+  "homepage": "https://github.com/daadaadaah/daily-quiz-bot.git#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@slack/webhook": "^5.0.3",
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.18",
+    "@types/node": "^13.13.2",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "moment": "^2.24.0",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "node-fetch": "^2.6.1"
+  }
+}
