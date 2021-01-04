@@ -8,9 +8,9 @@ on:
   # push:
   #  branches:
   #   - main
-  schedule:
-    # 매일 아침 9시에 데일리 퀴즈 발송
-    - cron: "50 23 * * *"
+  # schedule:
+  #   # 매일 아침 9시에 데일리 퀴즈 발송
+  #   - cron: "50 23 * * *"
 
 jobs:
   build:
@@ -19,16 +19,16 @@ jobs:
       matrix:
         node-version: [12.x]
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build
-    - run: npm start
-      env:
-        CI: true
-        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
-        GRAPHQL_SHEET_TOKEN: ${{ secrets.GRAPHQL_SHEET_TOKEN }}
-        WEBHOOKS_URL: ${{ secrets.WEBHOOKS_URL }}
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run build
+      - run: npm start
+        env:
+          CI: true
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+          GRAPHQL_SHEET_TOKEN: ${{ secrets.GRAPHQL_SHEET_TOKEN }}
+          WEBHOOKS_URL: ${{ secrets.WEBHOOKS_URL }}
