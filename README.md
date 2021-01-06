@@ -1,4 +1,7 @@
 # codesoom-quiz-bot
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 - Inspired by [letterbot](https://github.com/cjaewon/letterbot), [today-devblog-bot](https://github.com/techinpark/today-devblog-bot)
 
@@ -14,3 +17,23 @@
 |6주차|Routing|[daadaadaah](https://github.com/daadaadaah)|-|
 |7주차|Login|[bbhye1](https://github.com/bbhye1)|-|
 |8주차|Other|[daadaadaah](https://github.com/daadaadaah)|-|
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/daadaadaah"><img src="https://avatars0.githubusercontent.com/u/60481383?v=4?s=100" width="100px;" alt=""/><br /><sub><b>daadaadaah</b></sub></a><br /><a href="https://github.com/daadaadaah/codesoom-quiz-bot/commits?author=daadaadaah" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
