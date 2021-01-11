@@ -15,6 +15,15 @@
       ]
     },
     {
+      "login": "bbhye1",
+      "name": "Hyewon Baek",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/65213094?v=4",
+      "profile": "https://bbhye1.tistory.com/",
+      "contributions": [
+        "data"
+      ]
+    },
+     {
       "login": "gringrape",
       "name": "gringrape",
       "avatar_url": "https://avatars3.githubusercontent.com/u/53764714?v=4",
@@ -22,7 +31,8 @@
       "contributions": [
         "data"
       ]
-    }
+    },
+    
   ],
   "contributorsPerLine": 7,
   "projectName": "codesoom-quiz-bot",
