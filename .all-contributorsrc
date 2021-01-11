@@ -22,7 +22,17 @@
       "contributions": [
         "data"
       ]
-    }
+    },
+     {
+      "login": "gringrape",
+      "name": "gringrape",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/53764714?v=4",
+      "profile": "https://velog.io/@gringrape200",
+      "contributions": [
+        "data"
+      ]
+    },
+    
   ],
   "contributorsPerLine": 7,
   "projectName": "codesoom-quiz-bot",

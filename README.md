@@ -29,6 +29,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/daadaadaah"><img src="https://avatars0.githubusercontent.com/u/60481383?v=4?s=100" width="100px;" alt=""/><br /><sub><b>daadaadaah</b></sub></a><br /><a href="https://github.com/daadaadaah/codesoom-quiz-bot/commits?author=daadaadaah" title="Code">💻</a></td>
     <td align="center"><a href="https://bbhye1.tistory.com/"><img src="https://avatars3.githubusercontent.com/u/65213094?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hyewon Baek</b></sub></a><br /><a href="#data-bbhye1" title="Data">🔣</a></td>
+    <td align="center"><a href="https://velog.io/@gringrape200"><img src="https://avatars3.githubusercontent.com/u/53764714?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gringrape</b></sub></a><br /><a href="#data-gringrape" title="Data">🔣</a></td>
   </tr>
 </table>
 
