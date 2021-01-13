@@ -1,32 +1,31 @@
 {
-  "name": "daily-quiz-bot",
+  "name": "codosoom-quiz-bot",
   "version": "1.0.0",
-  "description": "매일마다 문제를 슬랙 채널로 보내드려요",
+  "description": "매일 코드숨 슬랙에 문제를 내는 Bot",
   "main": "app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node dist/app.js"
+    "start": "node dist/src/app.js",
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll --coverage --verbose",
+    "test:coverage": "npm run test -- --coverage --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daadaadaah/daily-quiz-bot.git"
+    "url": "git+https://github.com/daadaadaah/codosoom-quiz-bot.git"
   },
   "author": "Fernando",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daadaadaah/daily-quiz-bot.git"
+    "url": "https://github.com/daadaadaah/codosoom-quiz-bot.git"
   },
-  "homepage": "https://github.com/daadaadaah/daily-quiz-bot.git#readme",
+  "homepage": "https://github.com/daadaadaah/codosoom-quiz-bot.git#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6",
     "@slack/webhook": "^5.0.3",
-    "@types/axios": "^0.14.0",
-    "@types/cheerio": "^0.22.18",
+    "@types/jest": "^25.2.2",
     "@types/node": "^13.13.2",
-    "axios": "^0.19.2",
-    "cheerio": "^1.0.0-rc.3",
-    "moment": "^2.24.0",
+    "jest": "^25.0.1",
+    "ts-jest": "^25.4.0",
     "ts-node": "^8.9.0",
     "typescript": "^3.8.3"
   },
