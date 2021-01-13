@@ -4,12 +4,11 @@
   "description": "매일 코드숨 슬랙에 문제를 내는 Bot",
   "main": "app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "node dist/src/app.js",
-    "test:unit": "jest",
-    "test:watch": "npm run test:unit -- --watchAll --coverage --verbose",
-    "test:coverage": "npm run test:unit -- --coverage --verbose"
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll --coverage --verbose",
+    "test:coverage": "npm run test -- --coverage --verbose"
   },
   "repository": {
     "type": "git",
