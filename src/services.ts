@@ -70,7 +70,7 @@ export const postQuizsToSlack = async ({ quizs }: slackArgs) => {
     fields: [
       {
         type: "mrkdwn",
-        title: "🍿 함수맛 어디까지 봐봤닝? 🍜 ",
+        title: "🍲 우려먹는 코드숨 React 🎃 ",
         value: question,
       },
     ],
